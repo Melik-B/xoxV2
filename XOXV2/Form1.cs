@@ -323,11 +323,15 @@ namespace XOXV2
             if (lbOyuncu1Skor.Text == nudElSayisi.Value.ToString())
             {
                 lbOynayanIsim.Text = tbXoxOyuncuAdi1.Text + " Kazandı!";
+
+                pXox.Visible = false;
             }
 
             if (lbOyuncu2Skor.Text == nudElSayisi.Value.ToString())
             {
                 lbOynayanIsim.Text = tbXoxOyuncuAdi2.Text + " Kazandı!";
+
+                pXox.Visible = false;
             }
 
             if (label4.Text != "" && label5.Text != "" && label6.Text != "" && label7.Text != "" && label8.Text != "" && label9.Text != "" && label10.Text != "" && label11.Text != "" && label12.Text != "")
